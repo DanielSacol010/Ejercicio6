@@ -2,11 +2,9 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
-/** Vista de consola. Nombre conservado por solicitud del usuario; ver decisiones. */
 public class VistaSistema {
     private final Scanner entrada;
 
-    // Constructor explicitado para inicializar la entrada de consola.
     public VistaSistema() {
         entrada = new Scanner(System.in, "UTF-8");
     }
